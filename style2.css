@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 70px;
+    background-color: rgb(234, 232, 232);
+}
+
+div{
+    width: 40vw;
+    float: left;
+    margin-left: 150px;
+}
+
+h1{
+    color: blue;
+    font-size: 90px;
+    width: 20vw;
+}
+
+p{
+    font-size: 35px;
+}
+
+form{
+    width: 35vw;
+    height: 28vw;
+    float: right;
+    margin-right: 5vw;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+}
+
+input,textarea,button{
+    display: block;
+    width: 25vw;
+    margin-bottom: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    margin-left: 6vw;
+    margin-top: 15px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-color: black;
+}
+
+a{
+    color: blue;
+    margin-left: 15vw;
+}
+
+a:hover{
+    color: black;
+}
+
+#button2{
+    background-color: green;
+    color: white;
+    border-color: black;
+    width: 15vw;
+    margin-left: 11vw;
+}
+
+h3{
+    color: white;
+}
+
+::placeholder{
+    font-size: large;
+}
+
+h4{
+    color: black;
+    font-size: larger;
+    margin-left: -8vw;
+}
+
+#a2{
+    color: black;
+}
